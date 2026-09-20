@@ -129,3 +129,33 @@ textarea { resize: vertical; }
   .dashboard-grid { grid-template-columns: 1fr 1fr; }
   .two-col { grid-template-columns: 1fr 1fr; }
 }
+
+/* ========================================
+   CLAUDE AI ANALİZİ
+======================================== */
+
+.ai-analysis-section {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.ai-analysis-content {
+  margin-top: 12px;
+  padding: 18px;
+  border: 1px solid #dbe3ee;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.ai-analysis-text {
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: #1f2937;
+}
